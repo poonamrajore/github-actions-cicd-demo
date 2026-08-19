@@ -1,9 +1,9 @@
-const http = require(&quot;http&quot;);
+const http = require("http");
 const port = process.env.PORT || 3000;
-const server = http.createServer((req, res) =&gt; {
-res.writeHead(200, {&quot;Content-Type&quot;: &quot;text/plain&quot;});
-res.end(&quot;GitHub Actions CI/CD Demo Application&quot;);
+const server = http.createServer((req, res) =>; {
+res.writeHead(200, {"Content-Type": "text/plain"});
+res.end("GitHub Actions CI/CD Demo Application");
 });
-server.listen(port, () =&gt; {
+server.listen(port, () =>; {
 console.log(`Application running on port ${port}`);
 });
