@@ -1,9 +1,10 @@
 {
-  "name": "github-actions-demo",
+  "name": "github-actions-cicd-demo",
   "version": "1.0.0",
+  "main": "app.js",
   "scripts": {
-  "test": "node test.js",
-  "start": "node app.js"
-  "build": "node build.js"
+    "start": "node app.js"
+    "build": "node build.js",
+    "test": "node test.js"
   }
 }
